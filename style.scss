@@ -9,6 +9,10 @@
 body {
   background-color: $color-background;
   padding: 1rem;
+
+  > .search-bar {
+    padding: 10px;
+  }
 }
 
 .card-container {

@@ -13,6 +13,9 @@ body {
   background-color: #f3f3f3;
   padding: 1rem;
 }
+body > .search-bar {
+  padding: 10px;
+}
 
 .card-container {
   margin-top: 1rem;
