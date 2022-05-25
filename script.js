@@ -21,3 +21,5 @@ const createCard = (object) => {
         </div>`
     )
 }
+
+pokemonArray.forEach(pokemon => cardContainer.innerHTML += createCard(pokemon));
