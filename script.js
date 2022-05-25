@@ -1,5 +1,9 @@
 import { default as pokemonArray } from "./data/pokemon.js";
 
+const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
 const createCard = (object) => {
 
     let typeString = '';
